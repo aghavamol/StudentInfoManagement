@@ -1,0 +1,7 @@
+CREATE DATABASE studDB;
+
+use studdb;
+
+CREATE TABLE students (studName VARCHAR(50), studLocation VARCHAR(50), studClass INT(2), studPercentage FLOAT(10,2), randUser VARCHAR(50), randPass INT(11));
+
+show tables;
